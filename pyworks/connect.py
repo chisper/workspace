@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import socket
+import socket,sys
 
 print "Creating socket ..."
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
