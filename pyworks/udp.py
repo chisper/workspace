@@ -7,10 +7,11 @@ textport = sys.argv[2]
 
 s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 
-try:
-	port = int(textport)
-except ValueError:
-	port = socket.getservbyname(text,"udp")
+port = 51423
+# try:
+# 	port = int(textport)
+# except ValueError:
+# 	port = socket.getservbyname(text,"udp")
 
 s.connect((host,port))
 print "Enter data to transmit:"
