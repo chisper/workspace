@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding:utf-8 -*-  
+#-*- coding:utf-8 -*-  
 import sys,urllib2
 
 req = urllib2.Request(sys.argv[1])
