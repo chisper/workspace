@@ -1,6 +1,6 @@
 #!/usr/bin/env python 
 
-from ftplib import FTP
+from ftplib import FTPcd
 f = FTP('ftp.ibiblio.org')
 print "Welcome:",f.getwelcome()
 f.login()
